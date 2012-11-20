@@ -1,0 +1,14 @@
+<div>
+<h2>Detalle de cuadra</h2>
+<table><tr>
+<td>Id</td><td><input value="{{=$.cuadra.Id}}"  disabled="disabled"  onChange="framux.bind('$.cuadra.Id',this)"/></td>
+<td>Nombre</td><td><input value="{{=$.cuadra.Nombre}}" onChange="framux.bind('$.cuadra.Nombre',this)"/></td>
+<td>Region</td><td><input value="{{=$.cuadra.Region}}" onChange="framux.bind('$.cuadra.Region',this)"/></td>
+</tr></table>
+<a href="#"cuadraUpdate/{{=$.cuadra.id}}">
+<input type="button" value="Actualizar" id="button"/>
+</a>
+<a href="#"cuadraDelete/{{=$.cuadra.id}}">
+  <input type="button" value="Eliminar" id="button"/>
+</a>
+</div>

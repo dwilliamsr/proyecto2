@@ -1,0 +1,24 @@
+<div>
+  <h2>Listado de tiposaveria</h2>
+  <br/>
+  <table>
+    <thead>
+<th>Id</th>
+<th>Nombre</th>
+<th>Averia</th>
+    </thead>
+    {{~$.tiposaveria:tipoaveria}}
+    <tr>
+<td>{{=tipoaveria.id}}</td>
+<td>{{=tipoaveria.nombre}}</td>
+<td>{{=tipoaveria.averia}}</td>
+      <td><a href="#tipoaveria/{{=tipoaveria.id}}">
+        <input type="button" value="Detalle"/>
+      </a></td>
+    </tr>
+    {{~}}
+  </table>
+  <a href="#tipoaveriaNew">
+    <input type="button" value="Agregar" id="button"/>
+  </a>
+</div>

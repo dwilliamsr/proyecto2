@@ -1,0 +1,24 @@
+<div>
+  <h2>Listado de tiposvivienda</h2>
+  <br/>
+  <table>
+    <thead>
+<th>Id</th>
+<th>Nombre </th>
+<th>Servicio</th>
+    </thead>
+    {{~$.tiposvivienda:tipovivienda}}
+    <tr>
+<td>{{=tipovivienda.id}}</td>
+<td>{{=tipovivienda.nombre }}</td>
+<td>{{=tipovivienda.servicio}}</td>
+      <td><a href="#tipovivienda/{{=tipovivienda.id}}">
+        <input type="button" value="Detalle"/>
+      </a></td>
+    </tr>
+    {{~}}
+  </table>
+  <a href="#tipoviviendaNew">
+    <input type="button" value="Agregar" id="button"/>
+  </a>
+</div>

@@ -1,0 +1,28 @@
+<div>
+  <h2>Listado de instalaciones</h2>
+  <br/>
+  <table>
+    <thead>
+<th>Id</th>
+<th>NumConcent</th>
+<th>CantMetCable</th>
+<th>InsPropia</th>
+<th>CantTel</th>
+    </thead>
+    {{~$.instalaciones:instalacion}}
+    <tr>
+<td>{{=instalacion.id}}</td>
+<td>{{=instalacion.numconcent}}</td>
+<td>{{=instalacion.cantmetcable}}</td>
+<td>{{=instalacion.inspropia}}</td>
+<td>{{=instalacion.canttel}}</td>
+      <td><a href="#instalacion/{{=instalacion.id}}">
+        <input type="button" value="Detalle"/>
+      </a></td>
+    </tr>
+    {{~}}
+  </table>
+  <a href="#instalacionNew">
+    <input type="button" value="Agregar" id="button"/>
+  </a>
+</div>

@@ -1,0 +1,14 @@
+<div>
+<h2>Detalle de region</h2>
+<table><tr>
+<td>Id</td><td><input value="{{=$.region.Id}}"  disabled="disabled"  onChange="framux.bind('$.region.Id',this)"/></td>
+<td>Encargado</td><td><input value="{{=$.region.Encargado}}" onChange="framux.bind('$.region.Encargado',this)"/></td>
+<td>Sucursal</td><td><input value="{{=$.region.Sucursal}}" onChange="framux.bind('$.region.Sucursal',this)"/></td>
+</tr></table>
+<a href="#"regionUpdate/{{=$.region.id}}">
+<input type="button" value="Actualizar" id="button"/>
+</a>
+<a href="#"regionDelete/{{=$.region.id}}">
+  <input type="button" value="Eliminar" id="button"/>
+</a>
+</div>

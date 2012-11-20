@@ -1,0 +1,26 @@
+<div>
+  <h2>Listado de averias</h2>
+  <br/>
+  <table>
+    <thead>
+<th>Id</th>
+<th>Descripcion</th>
+<th>Fecha</th>
+<th>Servicio</th>
+    </thead>
+    {{~$.averias:averia}}
+    <tr>
+<td>{{=averia.id}}</td>
+<td>{{=averia.descripcion}}</td>
+<td>{{=averia.fecha}}</td>
+<td>{{=averia.servicio}}</td>
+      <td><a href="#averia/{{=averia.id}}">
+        <input type="button" value="Detalle"/>
+      </a></td>
+    </tr>
+    {{~}}
+  </table>
+  <a href="#averiaNew">
+    <input type="button" value="Agregar" id="button"/>
+  </a>
+</div>

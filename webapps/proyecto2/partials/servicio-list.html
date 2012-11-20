@@ -1,0 +1,28 @@
+<div>
+  <h2>Listado de servicios</h2>
+  <br/>
+  <table>
+    <thead>
+<th>Id</th>
+<th>FechaInst</th>
+<th>Direccion</th>
+<th>Region</th>
+<th>Suscriptor</th>
+    </thead>
+    {{~$.servicios:servicio}}
+    <tr>
+<td>{{=servicio.id}}</td>
+<td>{{=servicio.fechainst}}</td>
+<td>{{=servicio.direccion}}</td>
+<td>{{=servicio.region}}</td>
+<td>{{=servicio.suscriptor}}</td>
+      <td><a href="#servicio/{{=servicio.id}}">
+        <input type="button" value="Detalle"/>
+      </a></td>
+    </tr>
+    {{~}}
+  </table>
+  <a href="#servicioNew">
+    <input type="button" value="Agregar" id="button"/>
+  </a>
+</div>

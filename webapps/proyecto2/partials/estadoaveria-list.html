@@ -1,0 +1,24 @@
+<div>
+  <h2>Listado de estadosaveria</h2>
+  <br/>
+  <table>
+    <thead>
+<th>Id</th>
+<th>Nombre</th>
+<th>Averia</th>
+    </thead>
+    {{~$.estadosaveria:estadoaveria}}
+    <tr>
+<td>{{=estadoaveria.id}}</td>
+<td>{{=estadoaveria.nombre}}</td>
+<td>{{=estadoaveria.averia}}</td>
+      <td><a href="#estadoaveria/{{=estadoaveria.id}}">
+        <input type="button" value="Detalle"/>
+      </a></td>
+    </tr>
+    {{~}}
+  </table>
+  <a href="#estadoaveriaNew">
+    <input type="button" value="Agregar" id="button"/>
+  </a>
+</div>

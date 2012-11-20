@@ -1,0 +1,24 @@
+<div>
+  <h2>Listado de estadosserv</h2>
+  <br/>
+  <table>
+    <thead>
+<th>Id</th>
+<th>Nombre</th>
+<th>Servicio</th>
+    </thead>
+    {{~$.estadosserv:estadoserv}}
+    <tr>
+<td>{{=estadoserv.id}}</td>
+<td>{{=estadoserv.nombre}}</td>
+<td>{{=estadoserv.servicio}}</td>
+      <td><a href="#estadoserv/{{=estadoserv.id}}">
+        <input type="button" value="Detalle"/>
+      </a></td>
+    </tr>
+    {{~}}
+  </table>
+  <a href="#estadoservNew">
+    <input type="button" value="Agregar" id="button"/>
+  </a>
+</div>

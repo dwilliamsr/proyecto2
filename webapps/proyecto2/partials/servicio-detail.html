@@ -1,0 +1,16 @@
+<div>
+<h2>Detalle de servicio</h2>
+<table><tr>
+<td>Id</td><td><input value="{{=$.servicio.Id}}"  disabled="disabled"  onChange="framux.bind('$.servicio.Id',this)"/></td>
+<td>FechaInst</td><td><input value="{{=$.servicio.FechaInst}}" onChange="framux.bind('$.servicio.FechaInst',this)"/></td>
+<td>Direccion</td><td><input value="{{=$.servicio.Direccion}}" onChange="framux.bind('$.servicio.Direccion',this)"/></td>
+<td>Region</td><td><input value="{{=$.servicio.Region}}" onChange="framux.bind('$.servicio.Region',this)"/></td>
+<td>Suscriptor</td><td><input value="{{=$.servicio.Suscriptor}}" onChange="framux.bind('$.servicio.Suscriptor',this)"/></td>
+</tr></table>
+<a href="#"servicioUpdate/{{=$.servicio.id}}">
+<input type="button" value="Actualizar" id="button"/>
+</a>
+<a href="#"servicioDelete/{{=$.servicio.id}}">
+  <input type="button" value="Eliminar" id="button"/>
+</a>
+</div>

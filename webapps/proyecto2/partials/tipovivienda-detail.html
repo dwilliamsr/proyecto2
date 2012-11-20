@@ -1,0 +1,14 @@
+<div>
+<h2>Detalle de tipovivienda</h2>
+<table><tr>
+<td>Id</td><td><input value="{{=$.tipovivienda.Id}}"  disabled="disabled"  onChange="framux.bind('$.tipovivienda.Id',this)"/></td>
+<td>Nombre </td><td><input value="{{=$.tipovivienda.Nombre }}" onChange="framux.bind('$.tipovivienda.Nombre ',this)"/></td>
+<td>Servicio</td><td><input value="{{=$.tipovivienda.Servicio}}" onChange="framux.bind('$.tipovivienda.Servicio',this)"/></td>
+</tr></table>
+<a href="#"tipoviviendaUpdate/{{=$.tipovivienda.id}}">
+<input type="button" value="Actualizar" id="button"/>
+</a>
+<a href="#"tipoviviendaDelete/{{=$.tipovivienda.id}}">
+  <input type="button" value="Eliminar" id="button"/>
+</a>
+</div>

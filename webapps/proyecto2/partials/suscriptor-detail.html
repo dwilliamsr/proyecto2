@@ -1,0 +1,16 @@
+<div>
+<h2>Detalle de suscriptor</h2>
+<table><tr>
+<td>Id</td><td><input value="{{=$.suscriptor.Id}}"  disabled="disabled"  onChange="framux.bind('$.suscriptor.Id',this)"/></td>
+<td>Nombre</td><td><input value="{{=$.suscriptor.Nombre}}" onChange="framux.bind('$.suscriptor.Nombre',this)"/></td>
+<td>Identificacion</td><td><input value="{{=$.suscriptor.Identificacion}}" onChange="framux.bind('$.suscriptor.Identificacion',this)"/></td>
+<td>Telefono</td><td><input value="{{=$.suscriptor.Telefono}}" onChange="framux.bind('$.suscriptor.Telefono',this)"/></td>
+<td>Direccion</td><td><input value="{{=$.suscriptor.Direccion}}" onChange="framux.bind('$.suscriptor.Direccion',this)"/></td>
+</tr></table>
+<a href="#"suscriptorUpdate/{{=$.suscriptor.id}}">
+<input type="button" value="Actualizar" id="button"/>
+</a>
+<a href="#"suscriptorDelete/{{=$.suscriptor.id}}">
+  <input type="button" value="Eliminar" id="button"/>
+</a>
+</div>

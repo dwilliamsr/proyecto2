@@ -1,0 +1,24 @@
+<div>
+  <h2>Listado de cuadras</h2>
+  <br/>
+  <table>
+    <thead>
+<th>Id</th>
+<th>Nombre</th>
+<th>Region</th>
+    </thead>
+    {{~$.cuadras:cuadra}}
+    <tr>
+<td>{{=cuadra.id}}</td>
+<td>{{=cuadra.nombre}}</td>
+<td>{{=cuadra.region}}</td>
+      <td><a href="#cuadra/{{=cuadra.id}}">
+        <input type="button" value="Detalle"/>
+      </a></td>
+    </tr>
+    {{~}}
+  </table>
+  <a href="#cuadraNew">
+    <input type="button" value="Agregar" id="button"/>
+  </a>
+</div>

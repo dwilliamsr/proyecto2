@@ -1,0 +1,15 @@
+<div>
+<h2>Detalle de averia</h2>
+<table><tr>
+<td>Id</td><td><input value="{{=$.averia.Id}}"  disabled="disabled"  onChange="framux.bind('$.averia.Id',this)"/></td>
+<td>Descripcion</td><td><input value="{{=$.averia.Descripcion}}" onChange="framux.bind('$.averia.Descripcion',this)"/></td>
+<td>Fecha</td><td><input value="{{=$.averia.Fecha}}" onChange="framux.bind('$.averia.Fecha',this)"/></td>
+<td>Servicio</td><td><input value="{{=$.averia.Servicio}}" onChange="framux.bind('$.averia.Servicio',this)"/></td>
+</tr></table>
+<a href="#"averiaUpdate/{{=$.averia.id}}">
+<input type="button" value="Actualizar" id="button"/>
+</a>
+<a href="#"averiaDelete/{{=$.averia.id}}">
+  <input type="button" value="Eliminar" id="button"/>
+</a>
+</div>

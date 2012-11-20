@@ -1,0 +1,14 @@
+<div>
+<h2>Detalle de estadoaveria</h2>
+<table><tr>
+<td>Id</td><td><input value="{{=$.estadoaveria.Id}}"  disabled="disabled"  onChange="framux.bind('$.estadoaveria.Id',this)"/></td>
+<td>Nombre</td><td><input value="{{=$.estadoaveria.Nombre}}" onChange="framux.bind('$.estadoaveria.Nombre',this)"/></td>
+<td>Averia</td><td><input value="{{=$.estadoaveria.Averia}}" onChange="framux.bind('$.estadoaveria.Averia',this)"/></td>
+</tr></table>
+<a href="#"estadoaveriaUpdate/{{=$.estadoaveria.id}}">
+<input type="button" value="Actualizar" id="button"/>
+</a>
+<a href="#"estadoaveriaDelete/{{=$.estadoaveria.id}}">
+  <input type="button" value="Eliminar" id="button"/>
+</a>
+</div>

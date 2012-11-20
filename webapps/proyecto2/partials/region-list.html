@@ -1,0 +1,24 @@
+<div>
+  <h2>Listado de regiones</h2>
+  <br/>
+  <table>
+    <thead>
+<th>Id</th>
+<th>Encargado</th>
+<th>Sucursal</th>
+    </thead>
+    {{~$.regiones:region}}
+    <tr>
+<td>{{=region.id}}</td>
+<td>{{=region.encargado}}</td>
+<td>{{=region.sucursal}}</td>
+      <td><a href="#region/{{=region.id}}">
+        <input type="button" value="Detalle"/>
+      </a></td>
+    </tr>
+    {{~}}
+  </table>
+  <a href="#regionNew">
+    <input type="button" value="Agregar" id="button"/>
+  </a>
+</div>

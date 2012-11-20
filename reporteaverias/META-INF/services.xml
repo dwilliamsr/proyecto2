@@ -1,0 +1,194 @@
+<service>
+<parameter name="ServiceClass" locked="false">servicio.ReporteAverias</parameter>
+   <operation name="findAveria">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation>
+   <operation name="insertAveria">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   <operation name="updateAveria">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   <operation name="deleteAveria">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   <operation name="findAllAveria">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   
+   <operation name="findCuadra">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation>
+   <operation name="insertCuadra">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   <operation name="updateCuadra">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   <operation name="deleteCuadra">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   <operation name="findAllCuadra">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   
+   <operation name="findEstadoaveria">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation>
+   <operation name="insertEstadoaveria">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   <operation name="updateEstadoaveria">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   <operation name="deleteEstadoaveria">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   <operation name="findAllEstadoaveria">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   
+   <operation name="findEstadoserv">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation>
+   <operation name="insertEstadoserv">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   <operation name="updateEstadoserv">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   <operation name="deleteEstadoserv">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   <operation name="findAllEstadoserv">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   
+   <operation name="findInstalacion">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation>
+   <operation name="insertInstalacion">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   <operation name="updateInstalacion">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   <operation name="deleteInstalacion">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   <operation name="findAllInstalacion">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   
+   <operation name="findRegion">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation>
+   <operation name="insertRegion">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   <operation name="updateRegion">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   <operation name="deleteRegion">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   <operation name="findAllRegion">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   
+   <operation name="findServicio">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation>
+   <operation name="insertServicio">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   <operation name="updateServicio">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   <operation name="deleteServicio">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   <operation name="findAllServicio">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   
+   <operation name="findServicioextra">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation>
+   <operation name="insertServicioextra">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   <operation name="updateServicioextra">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   <operation name="deleteServicioextra">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   <operation name="findAllServicioextra">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   
+   <operation name="findSucursal">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation>
+   <operation name="insertSucursal">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   <operation name="updateSucursal">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   <operation name="deleteSucursal">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   <operation name="findAllSucursal">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   
+   <operation name="findSuscriptor">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation>
+   <operation name="insertSuscriptor">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   <operation name="updateSuscriptor">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   <operation name="deleteSuscriptor">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   <operation name="findAllSuscriptor">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   
+   <operation name="findTipoaveria">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation>
+   <operation name="insertTipoaveria">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   <operation name="updateTipoaveria">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   <operation name="deleteTipoaveria">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   <operation name="findAllTipoaveria">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   
+   <operation name="findTipovivienda">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation>
+   <operation name="insertTipovivienda">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   <operation name="updateTipovivienda">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   <operation name="deleteTipovivienda">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+   <operation name="findAllTipovivienda">
+     <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+   </operation> 
+</service>

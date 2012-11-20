@@ -1,0 +1,14 @@
+<div>
+<h2>Detalle de estadoserv</h2>
+<table><tr>
+<td>Id</td><td><input value="{{=$.estadoserv.Id}}"  disabled="disabled"  onChange="framux.bind('$.estadoserv.Id',this)"/></td>
+<td>Nombre</td><td><input value="{{=$.estadoserv.Nombre}}" onChange="framux.bind('$.estadoserv.Nombre',this)"/></td>
+<td>Servicio</td><td><input value="{{=$.estadoserv.Servicio}}" onChange="framux.bind('$.estadoserv.Servicio',this)"/></td>
+</tr></table>
+<a href="#"estadoservUpdate/{{=$.estadoserv.id}}">
+<input type="button" value="Actualizar" id="button"/>
+</a>
+<a href="#"estadoservDelete/{{=$.estadoserv.id}}">
+  <input type="button" value="Eliminar" id="button"/>
+</a>
+</div>

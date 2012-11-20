@@ -1,0 +1,24 @@
+<div>
+  <h2>Listado de serviciosextra</h2>
+  <br/>
+  <table>
+    <thead>
+<th>Id</th>
+<th>Nombre</th>
+<th>Servicio</th>
+    </thead>
+    {{~$.serviciosextra:servicioextra}}
+    <tr>
+<td>{{=servicioextra.id}}</td>
+<td>{{=servicioextra.nombre}}</td>
+<td>{{=servicioextra.servicio}}</td>
+      <td><a href="#servicioextra/{{=servicioextra.id}}">
+        <input type="button" value="Detalle"/>
+      </a></td>
+    </tr>
+    {{~}}
+  </table>
+  <a href="#servicioextraNew">
+    <input type="button" value="Agregar" id="button"/>
+  </a>
+</div>

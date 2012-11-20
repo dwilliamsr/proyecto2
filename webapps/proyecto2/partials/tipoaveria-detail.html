@@ -1,0 +1,14 @@
+<div>
+<h2>Detalle de tipoaveria</h2>
+<table><tr>
+<td>Id</td><td><input value="{{=$.tipoaveria.Id}}"  disabled="disabled"  onChange="framux.bind('$.tipoaveria.Id',this)"/></td>
+<td>Nombre</td><td><input value="{{=$.tipoaveria.Nombre}}" onChange="framux.bind('$.tipoaveria.Nombre',this)"/></td>
+<td>Averia</td><td><input value="{{=$.tipoaveria.Averia}}" onChange="framux.bind('$.tipoaveria.Averia',this)"/></td>
+</tr></table>
+<a href="#"tipoaveriaUpdate/{{=$.tipoaveria.id}}">
+<input type="button" value="Actualizar" id="button"/>
+</a>
+<a href="#"tipoaveriaDelete/{{=$.tipoaveria.id}}">
+  <input type="button" value="Eliminar" id="button"/>
+</a>
+</div>

@@ -1,0 +1,28 @@
+<div>
+  <h2>Listado de suscriptores</h2>
+  <br/>
+  <table>
+    <thead>
+<th>Id</th>
+<th>Nombre</th>
+<th>Identificacion</th>
+<th>Telefono</th>
+<th>Direccion</th>
+    </thead>
+    {{~$.suscriptores:suscriptor}}
+    <tr>
+<td>{{=suscriptor.id}}</td>
+<td>{{=suscriptor.nombre}}</td>
+<td>{{=suscriptor.identificacion}}</td>
+<td>{{=suscriptor.telefono}}</td>
+<td>{{=suscriptor.direccion}}</td>
+      <td><a href="#suscriptor/{{=suscriptor.id}}">
+        <input type="button" value="Detalle"/>
+      </a></td>
+    </tr>
+    {{~}}
+  </table>
+  <a href="#suscriptorNew">
+    <input type="button" value="Agregar" id="button"/>
+  </a>
+</div>

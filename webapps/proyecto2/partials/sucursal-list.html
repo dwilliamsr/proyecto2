@@ -1,0 +1,28 @@
+<div>
+  <h2>Listado de sucursales</h2>
+  <br/>
+  <table>
+    <thead>
+<th>Id</th>
+<th>Telefono</th>
+<th>Ciudad</th>
+<th>Direccion</th>
+<th>Encargado</th>
+    </thead>
+    {{~$.sucursales:sucursal}}
+    <tr>
+<td>{{=sucursal.id}}</td>
+<td>{{=sucursal.telefono}}</td>
+<td>{{=sucursal.ciudad}}</td>
+<td>{{=sucursal.direccion}}</td>
+<td>{{=sucursal.encargado}}</td>
+      <td><a href="#sucursal/{{=sucursal.id}}">
+        <input type="button" value="Detalle"/>
+      </a></td>
+    </tr>
+    {{~}}
+  </table>
+  <a href="#sucursalNew">
+    <input type="button" value="Agregar" id="button"/>
+  </a>
+</div>

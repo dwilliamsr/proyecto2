@@ -1,0 +1,16 @@
+<div>
+<h2>Detalle de instalacion</h2>
+<table><tr>
+<td>Id</td><td><input value="{{=$.instalacion.Id}}"  disabled="disabled"  onChange="framux.bind('$.instalacion.Id',this)"/></td>
+<td>NumConcent</td><td><input value="{{=$.instalacion.NumConcent}}" onChange="framux.bind('$.instalacion.NumConcent',this)"/></td>
+<td>CantMetCable</td><td><input value="{{=$.instalacion.CantMetCable}}" onChange="framux.bind('$.instalacion.CantMetCable',this)"/></td>
+<td>InsPropia</td><td><input value="{{=$.instalacion.InsPropia}}" onChange="framux.bind('$.instalacion.InsPropia',this)"/></td>
+<td>CantTel</td><td><input value="{{=$.instalacion.CantTel}}" onChange="framux.bind('$.instalacion.CantTel',this)"/></td>
+</tr></table>
+<a href="#"instalacionUpdate/{{=$.instalacion.id}}">
+<input type="button" value="Actualizar" id="button"/>
+</a>
+<a href="#"instalacionDelete/{{=$.instalacion.id}}">
+  <input type="button" value="Eliminar" id="button"/>
+</a>
+</div>
